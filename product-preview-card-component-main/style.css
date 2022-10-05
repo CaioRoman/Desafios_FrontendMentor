@@ -1,0 +1,84 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+}
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+.image {
+    width: 300px;
+    height: 100%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+}
+
+.conteudo {
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.preco {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+
+.botao {
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    width: 240px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center; 
+}
+
+p.paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+h1.titulo {
+    font-family: 'Fraunces', serif;
+}
+
+h1.preco_1 {
+    color: hsl(158, 36%, 37%);
+}
+p.preco_2 {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
