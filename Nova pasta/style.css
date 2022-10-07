@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.imagem {
+    position: relative;
+    background-image: url(images/image-equilibrium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 310px;
+    height: 310px;
+    margin-top: 25px;   
+    margin-left: auto;  
+    margin-right: auto; 
+    border-radius: 15px;
+}
+
+.conteudo {
+    margin-left: 25px;  
+    margin-right: 25px;
+}
+
+.titulo {
+    color: hsl(0, 0%, 100%);
+}
+
+.pordia {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.preco {
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+    display: flex;
+}
+
+.img_avatar {
+    margin-top: 18px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.nome {
+    color: hsl(0, 0%, 100%);
+}
+
+.nome:hover {
+    color: hsl(178, 100%, 50%);
+}
+.titulo:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.imagem:hover{
+    
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
